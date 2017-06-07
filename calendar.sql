@@ -84,6 +84,7 @@ SET
 	`day_of_week` = DAYOFWEEK( `date` ),
 	`month_name` = MONTHNAME( `date` ),
 	`day_name` = DAYNAME( `date` ),
+	`is_holiday` = 0,
 	`week_of_year` = WEEK( `date` )
 
 ;
